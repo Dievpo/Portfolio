@@ -1,4 +1,5 @@
-# 06. Supervised Learning
+# 01_Data_preprocessing
+
 ## Project description
 Client - bank credit department.
 Input data - customers solvency statistics.
