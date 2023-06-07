@@ -2,9 +2,9 @@
 
 The repository contains training projects Yandex Practicum "Specialist in Data Science" on the following topics:
 | №          | Project              | Sprint              | Description     | Tools       |
-| :---------:| :------------------- |:---------------:|:-----------:|
+| :---------:| :------------------- |:---------------:|:-----------:|:-----------:|
 | 01         | [Investigation of borrowers' reliability — analysis of bank data](https://github.com/Dievpo/Yandex_Practicum/tree/master/01_Data_preprocessing) | Data_preprocessing   | Research of statistics on the solvency of customers. The influence of marital status and the number of children of the client on the fact of repayment of the loan on time | python, pandas |
-| 02         | [Apartments for sale in St. Petersburg - real estate market analysis] (https://github.com/Dievpo/Yandex_Practicum/tree/master/02_Exploratory_data_analysis) | Exploratory data analysis | Determination of the market value of real estate | python, pandas, matplotlib |
+| 02         | [Apartments for sale in St. Petersburg - real estate market analysis](https://github.com/Dievpo/Yandex_Practicum/tree/master/02_Exploratory_data_analysis) | Exploratory data analysis | Determination of the market value of real estate | python, pandas, matplotlib |
 | 03         | Project              | Module project 1 | Build a system capable of analyzing customer behavior and offering users a new mobile communication tariff: | python, pandas, matplotlib, seaborn |
 | 04         | Project              | Statistical data analysis | Analysis of tariffs and their users on a sample of mobile operator's clients | python, pandas, scipy, matplotlib, seaborn |
 | 05         | Project              | Introduction to machine learning | Building a mobile tariff selection model for a user | python, pandas, scipy, matplotlib, seaborn, sklearn |
