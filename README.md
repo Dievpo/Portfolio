@@ -1,4 +1,4 @@
-# Portfolio
+# Yandex Praktikum
 
 The repository contains training projects Yandex Practicum "Specialist in Data Science" on the following topics:
 | №          | Project              | Sprint              | Description     | Tools       |
