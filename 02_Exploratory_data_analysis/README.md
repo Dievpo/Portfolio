@@ -35,7 +35,7 @@ The task is to perform data preprocessing and study them in order to find intere
     4.3  Added to the table: apartment floor type (values - "first", "last", "other")  
     4.4  Added to the table: distance in km to the city center  
 5.  Conduct exploratory data analysis  
-    5.1  Let's study the following parameters of objects  
+    5.1  Let's study the following parameters of objects    
          5.1.1  Total area  
          5.1.2  Living space  
          5.1.3  Kitchen area  
@@ -49,8 +49,8 @@ The task is to perform data preprocessing and study them in order to find intere
          5.1.11 Distance to nearest airport  
          5.1.12 Distance to nearest park   
          5.1.13 Day and month of ad publication  
-    5.2  Apartment sale time  
-    5.3  Factors affecting the total (full) cost of the object  
+    5.2  Apartment sale time    
+    5.3  Factors affecting the total (full) cost of the object    
          5.3.1  Total area  
          5.3.2  Living area  
          5.3.3  Kitchen area  
