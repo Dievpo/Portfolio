@@ -33,7 +33,7 @@ Features:
 Target:
 - Price - price (euro)
 ## Project Structure
-1.  Data preparation
+1.  Data preparation  
     1.1  Data exploration  
     1.2  Data preprocessing  
 2.  Model training  
