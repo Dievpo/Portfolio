@@ -34,13 +34,13 @@ Target:
 - Price - price (euro)
 ## Project Structure
 1.  Data preparation
-    1.1  Data exploration
-    1.2  Data preprocessing
+    1.1  Data exploration  
+    1.2  Data preprocessing  
 2.  Model training  
     2.1  LinearRegression  
-    2.2  Decision Tree
-    2.3  CatBoost
-    2.4  LightGBM
+    2.2  Decision Tree  
+    2.3  CatBoost  
+    2.4  LightGBM  
 3.  Model Analysis    
 4.  General conclusion
 ## Results
