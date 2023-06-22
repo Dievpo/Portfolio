@@ -24,58 +24,58 @@ If the risk level is high, the driver will see a warning and recommendations alo
 - vehicles — information about affected vehicles
 	Has non-unique case_id and non-unique party_number, which are mapped to the collisions table and the parties table. If you need a unique identifier, this is case_id and party_number.
 ## Project Structure
-1. Connect to the database. Load the sql tables
-2. Conduct an initial study of the tables
-	2.1 Conclusion
-3. Conduct a statistical analysis of the accident factors
-	3.1 Let's find out in which months the greatest number of accidents occurs (collisions table)
-	3.2 We will analyze the severity of damage to the vehicle, based on the condition of the road at the time of the accident
-	3.3 Find the most common causes of accidents (parties table)
-		3.3.1 We will find the most frequent violations:
-		3.3.2 Does the weather affect the probability of an accident:
-		3.3.3 Does lighting affect the likelihood of an accident:
-	3.4 Cars with what type of body are more likely to be seriously damaged in an accident
-	3.5 Conclusions:
-4. Create a model for driver risk assessment
-	4.1 We will prepare a data set based on the primary assumption of the customer:
-	4.2 EDA
-	4.3 We will carry out the primary selection of the factors necessary for the model
-		4.3.1 Let's look at the distribution of the target column
-		4.3.2 vehicle_type
-		4.3.3 vehicle_age
-		4.3.4 party_type
-		4.3.5 insurance_premium
-		4.3.6 party_sobriety
-		4.3.7 party_drug_physical
-		4.3.8 cellphone_in_use
-		4.3.9 weather_1
-		4.3.10 location_type
-		4.3.11 collision_damage
-		4.3.12 primary_collision_factor
-		4.3.13 type_of_collision
-		4.3.14 motor_vehicle_involved_with
-		4.3.15 road_surface
-		4.3.16 road_condition_1
-		4.3.17 lighting
-		4.3.18 collision_date
-		4.3.19 collision_time
-		4.3.20 We encode categorical features
-		4.3.21 We will prepare training and test samples
-		4.3.22 Let's do the scaling
-	4.4 Conclusion:
-5. Model Selection
-	5.1 Let's choose a metric for evaluating the model based on the task set by the business:
-	5.2 Decision Tree Classifier
-	5.3 Random Forest Classifier
-		5.4 CatBoost
-	5.5 Model Selection
-	5.6 Confusion Matrix - Error Matrix
-		5.6.1 Decision Tree:
-		5.6.2 Random Forest:
-		5.6.3 CatBoost:
-	5.7 Let's analyze the importance of the main factors affecting the probability of an accident
-	5.8 Conclusions
-6. Conclusions
+1. Connect to the database. Load the sql tables  
+2. Conduct an initial study of the tables  
+	2.1 Conclusion  
+3. Conduct a statistical analysis of the accident factors  
+	3.1 Let's find out in which months the greatest number of accidents occurs (collisions table)  
+	3.2 We will analyze the severity of damage to the vehicle, based on the condition of the road at the time of the accident  
+	3.3 Find the most common causes of accidents (parties table)  
+		3.3.1 We will find the most frequent violations  
+		3.3.2 Does the weather affect the probability of an accident  
+		3.3.3 Does lighting affect the likelihood of an accident
+	3.4 Cars with what type of body are more likely to be seriously damaged in an accident  
+	3.5 Conclusions  
+4. Create a model for driver risk assessment  
+	4.1 We will prepare a data set based on the primary assumption of the customer  
+	4.2 EDA  
+	4.3 We will carry out the primary selection of the factors necessary for the model  
+		4.3.1 Let's look at the distribution of the target column  
+		4.3.2 vehicle_type  
+		4.3.3 vehicle_age  
+		4.3.4 party_type  
+		4.3.5 insurance_premium  
+		4.3.6 party_sobriety  
+		4.3.7 party_drug_physical  
+		4.3.8 cellphone_in_use  
+		4.3.9 weather_1  
+		4.3.10 location_type  
+		4.3.11 collision_damage  
+		4.3.12 primary_collision_factor  
+		4.3.13 type_of_collision  
+		4.3.14 motor_vehicle_involved_with  
+		4.3.15 road_surface  
+		4.3.16 road_condition_1  
+		4.3.17 lighting  
+		4.3.18 collision_date  
+		4.3.19 collision_time  
+		4.3.20 We encode categorical features  
+		4.3.21 We will prepare training and test samples  
+		4.3.22 Let's do the scaling  
+	4.4 Conclusion  
+5. Model Selection  
+	5.1 Let's choose a metric for evaluating the model based on the task set by the business  
+	5.2 Decision Tree Classifier  
+	5.3 Random Forest Classifier  
+		5.4 CatBoost  
+	5.5 Model Selection  
+	5.6 Confusion Matrix - Error Matrix  
+		5.6.1 Decision Tree  
+		5.6.2 Random Forest  
+		5.6.3 CatBoost  
+	5.7 Let's analyze the importance of the main factors affecting the probability of an accident  
+	5.8 Conclusions  
+6. Conclusions  
 ## Results
 The best model is the Cart boost model.
 - F1 on the test sample = 0.63789
