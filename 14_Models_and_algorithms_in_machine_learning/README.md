@@ -53,8 +53,8 @@ Target:
 		5.2.2 The value of p=0.3  
 		5.2.3 The value of p=0.5  
 		5.2.4 Conclusion based on the results of model improvement  
-6. Got a model  
-7.Conclusions    
+6. Got a model
+7. Conclusions    
 ## Results
 The neural network with 5 hidden layers, trained in 1000 epochs, 5 hidden layers, activation function - ReLU(), with the number of neurons: h1: 350 | h2: 150 | h3: 1350 | h4: 1200 | h5: 1250, proved to be the best. 
 It was possible to reach 1299.98 on the test sample according to the RMSE metric. 
