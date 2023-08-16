@@ -3,7 +3,7 @@
 ## Project description
 You work in a photo hosting for professional photographers “With Sense” (“With Sense”).  
 Your users post their photos on the hosting and accompany them with a full description: they indicate the location of the shooting, the camera model, etc. 
-A distinctive feature of the service is the description: it can be provided not only by the one who posts the photo, but also by other users of the portal.  
+A distinctive feature of the service is the description: it can be provided not only by the one who posts the photo, but also by other users of the portal.   
 Your department is experimenting with developing a search for reference photos for photographers. 
 The essence of the search is as follows: the user of the service enters a description of the desired scene.  
 You have been tasked with developing an on-demand image search demo.  
@@ -12,7 +12,7 @@ For the demo version, you need to choose the best model that will receive the ve
 Image processing restrictions apply in some countries where With Sense operates: search and search services are prohibited from providing any information, including, but not limited to, text, images, videos, and audio containing a description, image, or recording of children's voices.
 A child is any person under the age of 16.
 Your service strictly follows the laws of the countries in which they operate.  
-Therefore, when trying to view images prohibited by law, a disclaimer is shown instead of images:  
+Therefore, when trying to view images prohibited by law, a disclaimer is shown instead of images:   
 ⎢ This image is unavailable in your country in compliance with local laws.  
 During testing of the model, a disclaimer should be displayed when "harmful" content appears in the request.
 ## Data description
@@ -34,8 +34,8 @@ The description ID has the format <image file name>#<description serial number>.
 6. Text vectorization  
 7. Combining vectors  
 8. Training the fit prediction model  
-	8.1. Linear models  
-	8.2. Neural network  
+    8.1. Linear models  
+    8.2. Neural network  
 9. Model testing  
 10. Conclusions  
 ## Results
